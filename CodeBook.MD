@@ -91,51 +91,51 @@ Time.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Z.Axis
 Time.Domain.Angular.Velocity.Mean.()-X.Axis                                  
 Time.Domain.Angular.Velocity.Mean.()-Y.Axis                                  
 Time.Domain.Angular.Velocity.Mean.()-Z.Axis                                  
-[24] "Time.Domain.Angular.Velocity.Standard.Deviation.()-X.Axis"                    
-[25] "Time.Domain.Angular.Velocity.Standard.Deviation.()-Y.Axis"                    
-[26] "Time.Domain.Angular.Velocity.Standard.Deviation.()-Z.Axis"                    
-[27] "Time.Domain.Angular.Acceleration.Mean.()-X.Axis"                              
-[28] "Time.Domain.Angular.Acceleration.Mean.()-Y.Axis"                              
-[29] "Time.Domain.Angular.Acceleration.Mean.()-Z.Axis"                              
-[30] "Time.Domain.Angular.Acceleration.Standard.Deviation.()-X.Axis"                
-[31] "Time.Domain.Angular.Acceleration.Standard.Deviation.()-Y.Axis"                
-[32] "Time.Domain.Angular.Acceleration.Standard.Deviation.()-Z.Axis"                
-[33] "Time.Domain.Linear.Acceleration.Magnitude.Mean.()"                            
-[34] "Time.Domain.Linear.Acceleration.Magnitude.Standard.Deviation.()"              
-[35] "Time.Gravity.Linear.Acceleration.Magnitude.Mean.()"                           
-[36] "Time.Gravity.Linear.Acceleration.Magnitude.Standard.Deviation.()"             
-[37] "Time.Domain.Linear.Acceleration.Jerk.Magnitude.Mean.()"                       
-[38] "Time.Domain.Linear.Acceleration.Jerk.Magnitude.Standard.Deviation.()"         
-[39] "Time.Domain.Angular.Velocity.Magnitude.Mean.()"                               
-[40] "Time.Domain.Angular.Velocity.Magnitude.Standard.Deviation.()"                 
-[41] "Time.Domain.Angular.Acceleration.Magnitude.Mean.()"                           
-[42] "Time.Domain.Angular.Acceleration.Magnitude.Standard.Deviation.()"             
-[43] "Frequency.Domain.Linear.Acceleration.Mean.()-X.Axis"                          
-[44] "Frequency.Domain.Linear.Acceleration.Mean.()-Y.Axis"                          
-[45] "Frequency.Domain.Linear.Acceleration.Mean.()-Z.Axis"                          
-[46] "Frequency.Domain.Linear.Acceleration.Standard.Deviation.()-X.Axis"            
-[47] "Frequency.Domain.Linear.Acceleration.Standard.Deviation.()-Y.Axis"            
-[48] "Frequency.Domain.Linear.Acceleration.Standard.Deviation.()-Z.Axis"            
-[49] "Frequency.Domain.Linear.Acceleration.Jerk.Mean.()-X.Axis"                     
-[50] "Frequency.Domain.Linear.Acceleration.Jerk.Mean.()-Y.Axis"                     
-[51] "Frequency.Domain.Linear.Acceleration.Jerk.Mean.()-Z.Axis"                     
-[52] "Frequency.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-X.Axis"       
-[53] "Frequency.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Y.Axis"       
-[54] "Frequency.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Z.Axis"       
-[55] "Frequency.Domain.Angular.Velocity.Mean.()-X.Axis"                             
-[56] "Frequency.Domain.Angular.Velocity.Mean.()-Y.Axis"                             
-[57] "Frequency.Domain.Angular.Velocity.Mean.()-Z.Axis"                             
-[58] "Frequency.Domain.Angular.Velocity.Standard.Deviation.()-X.Axis"               
-[59] "Frequency.Domain.Angular.Velocity.Standard.Deviation.()-Y.Axis"               
-[60] "Frequency.Domain.Angular.Velocity.Standard.Deviation.()-Z.Axis"               
-[61] "Frequency.Domain.Linear.Acceleration.Magnitude.Mean.()"                       
-[62] "Frequency.Domain.Linear.Acceleration.Magnitude.Standard.Deviation.()"         
-[63] "Frequency.Domain.BodyLinear.Acceleration.Jerk.Magnitude.Mean.()"              
-[64] "Frequency.Domain.BodyLinear.Acceleration.Jerk.Magnitude.Standard.Deviation.()"
-[65] "Frequency.Domain.BodyAngular.Velocity.Magnitude.Mean.()"                      
-[66] "Frequency.Domain.BodyAngular.Velocity.Magnitude.Standard.Deviation.()"        
-[67] "Frequency.Domain.BodyAngular.Acceleration.Magnitude.Mean.()"                  
-[68] "Frequency.Domain.BodyAngular.Acceleration.Magnitude.Standard.Deviation.()"  
+Time.Domain.Angular.Velocity.Standard.Deviation.()-X.Axis                    
+Time.Domain.Angular.Velocity.Standard.Deviation.()-Y.Axis                    
+Time.Domain.Angular.Velocity.Standard.Deviation.()-Z.Axis                    
+Time.Domain.Angular.Acceleration.Mean.()-X.Axis                              
+Time.Domain.Angular.Acceleration.Mean.()-Y.Axis                              
+Time.Domain.Angular.Acceleration.Mean.()-Z.Axis                              
+Time.Domain.Angular.Acceleration.Standard.Deviation.()-X.Axis                
+Time.Domain.Angular.Acceleration.Standard.Deviation.()-Y.Axis                
+Time.Domain.Angular.Acceleration.Standard.Deviation.()-Z.Axis                
+Time.Domain.Linear.Acceleration.Magnitude.Mean.()                            
+Time.Domain.Linear.Acceleration.Magnitude.Standard.Deviation.()              
+Time.Gravity.Linear.Acceleration.Magnitude.Mean.()                           
+Time.Gravity.Linear.Acceleration.Magnitude.Standard.Deviation.()             
+Time.Domain.Linear.Acceleration.Jerk.Magnitude.Mean.()                       
+Time.Domain.Linear.Acceleration.Jerk.Magnitude.Standard.Deviation.()         
+Time.Domain.Angular.Velocity.Magnitude.Mean.()                               
+Time.Domain.Angular.Velocity.Magnitude.Standard.Deviation.()                 
+Time.Domain.Angular.Acceleration.Magnitude.Mean.()                           
+Time.Domain.Angular.Acceleration.Magnitude.Standard.Deviation.()             
+Frequency.Domain.Linear.Acceleration.Mean.()-X.Axis                          
+Frequency.Domain.Linear.Acceleration.Mean.()-Y.Axis                          
+Frequency.Domain.Linear.Acceleration.Mean.()-Z.Axis                          
+Frequency.Domain.Linear.Acceleration.Standard.Deviation.()-X.Axis            
+Frequency.Domain.Linear.Acceleration.Standard.Deviation.()-Y.Axis            
+Frequency.Domain.Linear.Acceleration.Standard.Deviation.()-Z.Axis            
+Frequency.Domain.Linear.Acceleration.Jerk.Mean.()-X.Axis                     
+Frequency.Domain.Linear.Acceleration.Jerk.Mean.()-Y.Axis                     
+Frequency.Domain.Linear.Acceleration.Jerk.Mean.()-Z.Axis                     
+Frequency.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-X.Axis       
+Frequency.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Y.Axis       
+Frequency.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Z.Axis       
+Frequency.Domain.Angular.Velocity.Mean.()-X.Axis                             
+Frequency.Domain.Angular.Velocity.Mean.()-Y.Axis                             
+Frequency.Domain.Angular.Velocity.Mean.()-Z.Axis                             
+Frequency.Domain.Angular.Velocity.Standard.Deviation.()-X.Axis               
+Frequency.Domain.Angular.Velocity.Standard.Deviation.()-Y.Axis               
+Frequency.Domain.Angular.Velocity.Standard.Deviation.()-Z.Axis               
+Frequency.Domain.Linear.Acceleration.Magnitude.Mean.()                       
+Frequency.Domain.Linear.Acceleration.Magnitude.Standard.Deviation.()         
+Frequency.Domain.BodyLinear.Acceleration.Jerk.Magnitude.Mean.()              
+Frequency.Domain.BodyLinear.Acceleration.Jerk.Magnitude.Standard.Deviation.()
+Frequency.Domain.BodyAngular.Velocity.Magnitude.Mean.()                      
+Frequency.Domain.BodyAngular.Velocity.Magnitude.Standard.Deviation.()        
+Frequency.Domain.BodyAngular.Acceleration.Magnitude.Mean.()                  
+Frequency.Domain.BodyAngular.Acceleration.Magnitude.Standard.Deviation.() 
 
 ###activity name
 Activity
