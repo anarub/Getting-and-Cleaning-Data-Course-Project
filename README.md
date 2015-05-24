@@ -24,7 +24,7 @@ Combines the activity lable and the summary data frame. From an obcessive complu
 More tidy up.
 
 ##Q4
-Names of columns were changed to be more meaningful; these were based on the data readme.
+Names of columns were changed to be more meaningful; these were based on the data "readme" file.
 
 ##Q5
 Creates a new dataframe from the calculted mean of each subject (30) and acitivity (6) being 180 rows in total (30 X 6).
