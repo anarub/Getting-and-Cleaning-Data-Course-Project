@@ -15,7 +15,7 @@ More environmental tidy up. This stage removed duplicate data from the computers
 ##Q2
 A vector is created with all headings that include mean() and std(). Looking at this vector "meanFreq" values were included; these do not seem appropriate and so are also removed.
 The vector is then reordered (to keep discriptors togeather).
-Using this vector a summary table is created.
+Using this vector a summary dataframe is created.
 
 More environmental tidy up; a decission was made to keep the data.complete dataframe for the purposes of cross checking but this could be removed here too.
 
