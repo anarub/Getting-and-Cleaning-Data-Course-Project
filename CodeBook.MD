@@ -65,7 +65,7 @@ These have been normalised from -1 to 1 and so units are not appropriate.
 The data was assembled into one data frame.
 It was then simplified by removing values that were not associated with the mean of standard deviation.
 The column titles were replaced with more discriptive words.
-The dataframe was further simplified by providing an average of activity and subject.
+The dataframe was further simplified by providing an average of activity (six activities) and subject (thirty subjects) giving 180 mean values for each of the below discriptors.
 
 ###Column Names
 Activity                                                                    
