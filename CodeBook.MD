@@ -60,14 +60,14 @@ The units are radians/second.
 These have been normalised from -1 to 1 and so units are not appropriate.
 
 
-#Data Transformation
+##Data Transformation
 
 The data was assembled into one data frame.
 It was then simplified by removing values that were not associated with the mean of standard deviation.
 The column titles were replaced with more discriptive words.
 The dataframe was further simplified by providing an average of activity and subject.
 
-##Column Names
+###Column Names
  [1] "Activity"                                                                     
  [2] "subject"                                                                      
  [3] "Time.Domain.Linear.Acceleration.Mean.()-X.Axis"                               
@@ -137,7 +137,7 @@ The dataframe was further simplified by providing an average of activity and sub
 [67] "Frequency.Domain.BodyAngular.Acceleration.Magnitude.Mean.()"                  
 [68] "Frequency.Domain.BodyAngular.Acceleration.Magnitude.Standard.Deviation.()"  
 
-##activity name
+###activity name
 Activity
 WALKING
 WALKING_UPSTAIRS
