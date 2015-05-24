@@ -68,29 +68,29 @@ The column titles were replaced with more discriptive words.
 The dataframe was further simplified by providing an average of activity and subject.
 
 ###Column Names
- [1] "Activity"                                                                     
- [2] "subject"                                                                      
- [3] "Time.Domain.Linear.Acceleration.Mean.()-X.Axis"                               
- [4] "Time.Domain.Linear.Acceleration.Mean.()-Y.Axis"                               
- [5] "Time.Domain.Linear.Acceleration.Mean.()-Z.Axis"                               
- [6] "Time.Domain.Linear.Acceleration.Standard.Deviation.()-X.Axis"                 
- [7] "Time.Domain.Linear.Acceleration.Standard.Deviation.()-Y.Axis"                 
- [8] "Time.Domain.Linear.Acceleration.Standard.Deviation.()-Z.Axis"                 
- [9] "Time.Gravity.Linear.Acceleration.Mean.()-X.Axis"                              
-[10] "Time.Gravity.Linear.Acceleration.Mean.()-Y.Axis"                              
-[11] "Time.Gravity.Linear.Acceleration.Mean.()-Z.Axis"                              
-[12] "Time.Gravity.Linear.Acceleration.Standard.Deviation.()-X.Axis"                
-[13] "Time.Gravity.Linear.Acceleration.Standard.Deviation.()-Y.Axis"                
-[14] "Time.Gravity.Linear.Acceleration.Standard.Deviation.()-Z.Axis"                
-[15] "Time.Domain.Linear.Acceleration.Jerk.Mean.()-X.Axis"                          
-[16] "Time.Domain.Linear.Acceleration.Jerk.Mean.()-Y.Axis"                          
-[17] "Time.Domain.Linear.Acceleration.Jerk.Mean.()-Z.Axis"                          
-[18] "Time.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-X.Axis"            
-[19] "Time.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Y.Axis"            
-[20] "Time.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Z.Axis"            
-[21] "Time.Domain.Angular.Velocity.Mean.()-X.Axis"                                  
-[22] "Time.Domain.Angular.Velocity.Mean.()-Y.Axis"                                  
-[23] "Time.Domain.Angular.Velocity.Mean.()-Z.Axis"                                  
+Activity                                                                    
+subject                                                                     
+Time.Domain.Linear.Acceleration.Mean.()-X.Axis                               
+Time.Domain.Linear.Acceleration.Mean.()-Y.Axis                             
+Time.Domain.Linear.Acceleration.Mean.()-Z.Axis                              
+Time.Domain.Linear.Acceleration.Standard.Deviation.()-X.Axis               
+Time.Domain.Linear.Acceleration.Standard.Deviation.()-Y.Axis                 
+Time.Domain.Linear.Acceleration.Standard.Deviation.()-Z.Axis                 
+Time.Gravity.Linear.Acceleration.Mean.()-X.Axis                              
+Time.Gravity.Linear.Acceleration.Mean.()-Y.Axis                              
+Time.Gravity.Linear.Acceleration.Mean.()-Z.Axis                              
+Time.Gravity.Linear.Acceleration.Standard.Deviation.()-X.Axis                
+Time.Gravity.Linear.Acceleration.Standard.Deviation.()-Y.Axis                
+Time.Gravity.Linear.Acceleration.Standard.Deviation.()-Z.Axis                
+Time.Domain.Linear.Acceleration.Jerk.Mean.()-X.Axis                          
+Time.Domain.Linear.Acceleration.Jerk.Mean.()-Y.Axis                          
+Time.Domain.Linear.Acceleration.Jerk.Mean.()-Z.Axis                          
+Time.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-X.Axis            
+Time.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Y.Axis            
+Time.Domain.Linear.Acceleration.Jerk.Standard.Deviation.()-Z.Axis            
+Time.Domain.Angular.Velocity.Mean.()-X.Axis                                  
+Time.Domain.Angular.Velocity.Mean.()-Y.Axis                                  
+Time.Domain.Angular.Velocity.Mean.()-Z.Axis                                  
 [24] "Time.Domain.Angular.Velocity.Standard.Deviation.()-X.Axis"                    
 [25] "Time.Domain.Angular.Velocity.Standard.Deviation.()-Y.Axis"                    
 [26] "Time.Domain.Angular.Velocity.Standard.Deviation.()-Z.Axis"                    
