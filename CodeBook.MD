@@ -69,7 +69,6 @@ The dataframe was further simplified by providing an average of activity and sub
 
 ###Column Names
 Activity                                                                    
-subject                                                                     
 Time.Domain.Linear.Acceleration.Mean.()-X.Axis                               
 Time.Domain.Linear.Acceleration.Mean.()-Y.Axis                             
 Time.Domain.Linear.Acceleration.Mean.()-Z.Axis                              
