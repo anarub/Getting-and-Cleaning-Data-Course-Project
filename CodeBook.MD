@@ -1,11 +1,11 @@
-##Raw Data Collection
+#Raw Data Collection
 A full data discription is avalible below:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Data was downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-##About the data
-#Taken from data readme
+#About the data
+##Taken from data readme
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
@@ -60,14 +60,14 @@ The units are radians/second.
 These have been normalised from -1 to 1 and so units are not appropriate.
 
 
-##Data Transformation
+#Data Transformation
 
 The data was assembled into one data frame.
 It was then simplified by removing values that were not associated with the mean of standard deviation.
 The column titles were replaced with more discriptive words.
 The dataframe was further simplified by providing an average of activity and subject.
 
-#Column Names
+##Column Names
  [1] "Activity"                                                                     
  [2] "subject"                                                                      
  [3] "Time.Domain.Linear.Acceleration.Mean.()-X.Axis"                               
@@ -137,7 +137,7 @@ The dataframe was further simplified by providing an average of activity and sub
 [67] "Frequency.Domain.BodyAngular.Acceleration.Magnitude.Mean.()"                  
 [68] "Frequency.Domain.BodyAngular.Acceleration.Magnitude.Standard.Deviation.()"  
 
-#activity name
+##activity name
 Activity
 WALKING
 WALKING_UPSTAIRS
