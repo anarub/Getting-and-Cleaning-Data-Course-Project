@@ -143,5 +143,5 @@ names(data.summary) <- gsub('-std',"Standard.Deviation.",names(data.summary))
 data.tidy <- ddply(data.summary, c("Activity","subject"), numcolwise(mean))
 
 ##create the tidy data file
-write.table(data.tidy, "Samsung_Data.txt", sep = "",row.name=FALSE)
+write.table(data.tidy, "tidy_data.txt", sep = "",row.name=FALSE)
 
