@@ -13,6 +13,7 @@ subject_train.txt <- paste(data.location,"train/subject_train.txt", sep = "")
 x_train.txt <- paste(data.location,"train/x_train.txt", sep = "")
 y_train.txt <- paste(data.location,"train/y_train.txt", sep = "")
 
+
 ##Load data
 activity_labels <- read.table(activity_labels.txt, col.names = c("ActivityId", 
         "Activity"))
@@ -25,6 +26,7 @@ x_train <- read.table(x_train.txt)
 y_train <- read.table(y_train.txt)
 
 #Tidy up the environment
+
 rm(activity_labels.txt)
 rm(data.location)
 rm(features.txt)
@@ -75,7 +77,7 @@ rm(subject_train)
 rm(data.test)
 rm(data.train)
 
-##Q22.Extracts only the measurements on the mean and standard deviation
+##Q2 Extracts only the measurements on the mean and standard deviation
 ##for each measurement.
 
 ##gets column numbers of mean and std
@@ -86,7 +88,7 @@ column.combine<-c(column.mean,column.std)
 remove<- grep("Freq()",colnames(data.complete))
 column.combine<-column.combine[!column.combine %in% remove]
 
-##reorder vector so that mean and std of each activity remain togeather.
+##reorder vector so that mean and std of each descriptor remains togeather.
 column.combine<-sort(column.combine)
 
 ##Create summary data frame
@@ -122,20 +124,20 @@ rm(activity_labels)
 ##Q4 Appropriately labels the data set with descriptive variable names.
 names(data.summary)
 
-names(data.summary) <- gsub('()',"",names(data.summary))##tried to remove brackets but doesn't work
-names(data.summary) <- gsub('tBody',"Time.Domain.",names(data.summary))
-names(data.summary) <- gsub('fBody',"Frequency.Domain.",names(data.summary))
-names(data.summary) <- gsub('Acc',"Linear.Acceleration.",names(data.summary))
-names(data.summary) <- gsub('GyroJerk',"Angular.Acceleration.",names(data.summary))
-names(data.summary) <- gsub('Gyro',"Angular.Velocity.",names(data.summary))
-names(data.summary) <- gsub('-X',"-X.Axis",names(data.summary))
-names(data.summary) <- gsub('-Y',"-Y.Axis",names(data.summary))
-names(data.summary) <- gsub('-Z',"-Z.Axis",names(data.summary))
-names(data.summary) <- gsub('Mag',"Magnitude.",names(data.summary))
-names(data.summary) <- gsub('Jerk',"Jerk.",names(data.summary))
-names(data.summary) <- gsub('tGravity',"Time.Gravity.",names(data.summary))
-names(data.summary) <- gsub('-mean',"Mean.",names(data.summary))
-names(data.summary) <- gsub('-std',"Standard.Deviation.",names(data.summary))
+names(data.summary) <- gsub("()","",names(data.summary))##tried to remove brackets but doesn't work
+names(data.summary) <- gsub("tBody","Time.Domain.",names(data.summary))
+names(data.summary) <- gsub("fBody","Frequency.Domain.",names(data.summary))
+names(data.summary) <- gsub("Acc","Linear.Acceleration.",names(data.summary))
+names(data.summary) <- gsub("GyroJerk","Angular.Acceleration.",names(data.summary))
+names(data.summary) <- gsub("Gyro","Angular.Velocity.",names(data.summary))
+names(data.summary) <- gsub("-X","-X.Axis",names(data.summary))
+names(data.summary) <- gsub("-Y","-Y.Axis",names(data.summary))
+names(data.summary) <- gsub("-Z","-Z.Axis",names(data.summary))
+names(data.summary) <- gsub("Mag","Magnitude.",names(data.summary))
+names(data.summary) <- gsub("Jerk","Jerk.",names(data.summary))
+names(data.summary) <- gsub("tGravity","Time.Gravity.",names(data.summary))
+names(data.summary) <- gsub("-mean","Mean.",names(data.summary))
+names(data.summary) <- gsub("-std","Standard.Deviation.",names(data.summary))
 
 ##Q5 From the data set in step 4, creates a second, independent tidy data set
 ##with the average of each variable for each activity and each subject.
