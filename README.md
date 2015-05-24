@@ -19,13 +19,15 @@ Using this vector a summary table is created.
 
 More environmental tidy up; a decission was made to keep the data.complete dataframe for the purposes of cross checking but this could be removed here too.
 
-##Q3 combines the activity lable and the summary data frame. From an obcessive complusive point of view it reorders the table and introduces an unnecessary column. These are reorganised and removed.
+##Q3
+Combines the activity lable and the summary data frame. From an obcessive complusive point of view it reorders the table and introduces an unnecessary column. These are reorganised and removed.
 More tidy up.
 
 ##Q4
 Names of columns were changed to be more meaningful; these were based on the data readme.
 
-##Q5 creates a new dataframe from the calculted mean of each subject (30) and acitivity (6) being 180 rows in total (30 X 6).
+##Q5
+Creates a new dataframe from the calculted mean of each subject (30) and acitivity (6) being 180 rows in total (30 X 6).
 This dataframe is then saved as "tidy_data.txt"
 
 
